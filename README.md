@@ -39,3 +39,23 @@ This is an example of a simple change to the static Nginx index.html page. Repla
 ```
 docker run -it --rm  -p 8080:80 networkstatic/nginx_kittah
 ```
+
+
+### networkstatic/fping
+
+[Fping](http://fping.org/fping.1.html) for network testing. It's ping on steroids.
+
+```
+docker run -it --rm networkstatic/fping -help
+```
+
+
+### networkstatic/nyan_cat
+
+For fun testing
+
+```
+docker run -it --rm networkstatic/nyan_cat
+```
+
+

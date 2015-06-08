@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
 
-RUN apt-get update -qq && \
+RUN apt-get update -qq \
     && apt-get install -y nmap \
     && apt-get clean
 
