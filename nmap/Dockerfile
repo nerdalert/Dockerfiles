@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian
 
 MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
 
