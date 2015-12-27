@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian
 
 MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
 
