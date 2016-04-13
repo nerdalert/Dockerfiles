@@ -1,4 +1,4 @@
-FROM busybox
+FROM alpine:latest
 
 MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
 
