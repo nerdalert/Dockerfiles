@@ -1,6 +1,8 @@
 FROM alpine:latest
 
-MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
+LABEL MAINTAINER="Brent Salisbury <brent.salisbury@gmail.com>"
+
+RUN apk add --no-cache busybox-extras
 
 # Bored with "Hello World" for a test container run?
 # Spruce up your Docker terminal with an ASCII version
